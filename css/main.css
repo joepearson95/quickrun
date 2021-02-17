@@ -12,8 +12,8 @@ body {
 }
 
 .hero-bg {
-    background: #307D99 url("../images/bg.jpg");
-    background-position: 12% 83%;
+    background: #307D99 url("../images/bg2.jpg");
+    background-position: 30% 3%;
     color: white;
     text-align: center;
     padding-bottom: 4em;
@@ -47,16 +47,16 @@ h1 span {
     z-index: 1;
 }
 
-h1 span::before {
+/* h1 span::before {
     content: ' ';
     position: absolute;
     width: 3em;
-    background-color: #00BFFF;
+    background-color: #facfcd;
     height: 0.4em;
     bottom: 0;
     z-index: -1;
     margin-left: -.3em;
-}
+} */
 
 .hero-bg p {
     font-weight: bold;
@@ -70,7 +70,7 @@ h1 span::before {
 }
 
 label {
-    color: #2D7D98;
+    color: #db362e;
     font-weight: bold;
     display: block;
     margin-bottom: 1em;
@@ -95,7 +95,7 @@ input[type="text"] {
 }
 
 input[type="button"] {
-    background-color: #F89104;
+    background-color: #c32021;
     border: none;
     width: 100%;
     color: white;
@@ -107,7 +107,7 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-    background-color: rgb(216, 126, 1);
+    background-color: #d13838;
 }
 
 .authentic {
