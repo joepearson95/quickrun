@@ -49,7 +49,10 @@
         btn.addEventListener('click', () => {
             overlay.style.display = 'grid';
             overlay.classList.add('animate-overlay');
-            setTimeout(function() { overlay.style.display = 'none'; }, 3000)
+            setTimeout(function() { 
+                overlay.style.display = 'none'; 
+                overlay.classList.remove('animate-overlay'); 
+            }, 3000)
         });
         
     </script>
